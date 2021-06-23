@@ -13,3 +13,13 @@ data = [
 ]
 
 # Решение
+def func1():
+  x = []
+  for dictionary in data:
+    if x.count(dictionary) == 0:
+      x.append(dictionary)
+  return x
+
+
+def func2():
+  return list({k['id']: k for k in data}.values())
