@@ -1,4 +1,4 @@
-import random
+# import random
 from faker import Faker
 
 
@@ -6,7 +6,7 @@ fake = Faker()
 # words = ['пицца', 'вода', 'лимонад', 'стейк', 'дом', 'мясо', "сок", "курятина", "диван", "книги"]
 # word = random.choice(words)
 word = fake.word()
-print('Угадайте символ, который есть в загаданном слове (есть чит-код)')
+print('Угадайте символ, который есть в загаданном АНГЛИЙСКОМ слове (есть чит-код)')
 guesses = ''
 fake_chars = ''
 turns = 20
